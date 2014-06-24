@@ -29,10 +29,12 @@ The lines on the display represent the number of messages in each backlog.  Over
 then the server is not likely to recover, and it will eventually run out of resources.
 
 Following is a healthy server example:
-(backlog-for-geoevent.png?raw=true)
+
+![alt text](healthy.png?raw=true)
 
 Following is an unhealthy server example:
-(unhealthy.png?raw=true)
+
+![alt text](unhealthy.png?raw=true)
 
 ## Resources
 
