@@ -117,16 +117,17 @@ public class ChartDisplay extends Application {
 		for( String outputName : counts.keySet() )
 		{
 			XYChart.Series series = null;
+			long x = (System.currentTimeMillis() - startTime)/1000;
+			long v = counts.get(outputName);
 			if( ! seriesSet.containsKey(outputName) )
 			{
 				series = new XYChart.Series();
-				series.setName(outputName);
+				series.setName(outputName + " (" + v + ")");
 				lineChart.getData().add(series);
 				seriesSet.put(outputName, series);
 			}
 			series = seriesSet.get(outputName);
-			long x = (System.currentTimeMillis() - startTime)/1000;
-			long v = counts.get(outputName);
+            series.setName(outputName + " (" + v + ")");
 			if( v < 0 )
 				v = 0;
 			//System.out.println("Adding value " +x+","+v+" to series " + series.getName());
