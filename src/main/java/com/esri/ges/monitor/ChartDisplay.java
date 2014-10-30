@@ -7,14 +7,11 @@ import java.util.Map;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
-
 
 public class ChartDisplay extends Application {
 
@@ -111,6 +108,7 @@ public class ChartDisplay extends Application {
 		}
 	}
 
+	@SuppressWarnings("rawtypes")
 	private void updateDisplay() throws Exception
 	{
 		Map<String,Long> counts = monitor.getCounts();
@@ -138,7 +136,6 @@ public class ChartDisplay extends Application {
 				//xAxis.setLowerBound(x - maxHistory);
 			}
 			seriesData.add( new XYChart.Data( x, v ) );
-
 		}
 	}
 

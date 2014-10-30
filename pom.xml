@@ -4,7 +4,7 @@
 
 	<groupId>com.esri.ges</groupId>
 	<artifactId>geoevent-backlog-monitor</artifactId>
-	<version>10.2.0</version>
+	<version>10.3.0</version>
 
 	<name>GeoEvent Backlog Monitor</name>
 	<packaging>jar</packaging>
