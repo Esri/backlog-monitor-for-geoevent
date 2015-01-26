@@ -1,7 +1,7 @@
 # backlog-monitor-for-geoevent
 
-ArcGIS 10.2.x GeoEvent Processor utility to monitor the number of messages waiting to be processed by GeoEvnet Services and Outputs.
-This application is a JavaFX application that connects to the local GeoEvent Processor through JMX, and displays current message backlog counts of message buffers.
+ArcGIS 10.2.x GeoEvent Extension utility to monitor the number of messages waiting to be processed by GeoEvent Services and outputs.
+This application is a JavaFX application that connects to the local GeoEvent Extension through JMX and displays current message backlog counts of message buffers.
 
 
 ![App](backlog-for-geoevent.png?raw=true)
@@ -17,7 +17,7 @@ Building the source code:
 
 ## Requirements
 
-* ArcGIS 10.2.x GeoEvent Processor for Server.
+* ArcGIS 10.2.x GeoEvent Extension for Server.
 * Java JDK 1.7 or greater.
 * JavaFX.
 * Maven.
@@ -38,7 +38,7 @@ Following is an unhealthy server example:
 
 ## Resources
 
-* [ArcGIS GeoEvent Processor for Server Resource Center](http://pro.arcgis.com/share/geoevent-processor/)
+* [ArcGIS GeoEvent Processor for Server Resources](http://links.esri.com/geovent)
 * [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
 * [twitter@esri](http://twitter.com/esri)
 
