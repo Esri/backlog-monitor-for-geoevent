@@ -1,6 +1,6 @@
 # backlog-monitor-for-geoevent
 
-ArcGIS 10.2.x GeoEvent Extension for Server utility to monitor the number of messages waiting to be processed by GeoEvent Services and outputs.
+ArcGIS GeoEvent Extension for Server utility to monitor the number of messages waiting to be processed by GeoEvent Services and outputs.
 This application is a JavaFX application that connects to the local GeoEvent Extension through JMX and displays current message backlog counts of message buffers.
 
 
@@ -17,7 +17,7 @@ Building the source code:
 
 ## Requirements
 
-* ArcGIS 10.2.x GeoEvent Extension for Server.
+* ArcGIS GeoEvent Extension for Server.
 * Java JDK 1.7 or greater.
 * JavaFX.
 * Maven.
